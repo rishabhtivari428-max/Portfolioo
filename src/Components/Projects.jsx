@@ -1,7 +1,7 @@
 import React from "react";
 import image from '../assets/image.jpg';
 import image2 from '../assets/image2.jpg'
-import image3 from '../assets/Image3.jpg'
+import Image3 from '../assets/Image3.jpg'
 
 const projects = [
   {
@@ -24,7 +24,7 @@ const projects = [
     title: "Expense Tracker",
     description: "Manage your money effortlessly with the Expense Tracker app. Keep track of your daily expenses, monitor your spending habits, and stay on top of your budget.",
     tech: ["React", "Tailwind"],
-    image: image3,
+    image: Image3,
     demo: "https://expensetracker-tau-ten.vercel.app/",
     github: "https://github.com/rishabhtivari428-max/expensetracker"
   },
