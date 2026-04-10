@@ -1,6 +1,6 @@
 import React from "react";
-import image from '../assets/image.jpg';
-import image2 from '../assets/image2.jpg'
+import Image from '../assets/image.jpg';
+import Image2 from '../assets/image2.jpg'
 import Image3 from '../assets/Image3.jpg'
 
 const projects = [
@@ -8,7 +8,7 @@ const projects = [
     title: "Notes App",
     description: "A responsive Notes App built with React and Tailwind CSS with CRUD functionality and LocalStorage support.",
     tech: ["React", "Tailwind", "JS"],
-    image: image,
+    image: Image,
     demo: "https://vite-react-iyi1.vercel.app/",
     github: "https://github.com/rishabhtivari428-max/notes-app"
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "Weather App",
     description: "A responsive weather application built using React.js that fetches real-time weather data from an external API. Users can search for any city to view current weather conditions including temperature, humidity, and weather status.",
     tech: ["React", "TailwindCss"],
-    image: image2,
+    image: Image2,
     demo: "https://weather-app-delta-neon.vercel.app/",
     github: "https://github.com/rishabhtivari428-max/Weather-app"
   },
