@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@font-face {
+    font-family: "NasalizationRg";
+    src: url("./assets/Nasalization Rg.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mona-Sans SemiBold Wide";
+    src: url("https://db.onlinewebfonts.com/t/a03e0b28987a201da81c4e141a3879cc.eot");
+    src: url("https://db.onlinewebfonts.com/t/a03e0b28987a201da81c4e141a3879cc.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a03e0b28987a201da81c4e141a3879cc.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a03e0b28987a201da81c4e141a3879cc.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a03e0b28987a201da81c4e141a3879cc.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a03e0b28987a201da81c4e141a3879cc.svg#Mona-Sans SemiBold Wide")format("svg");
+}
+
+@font-face {
+    font-family: "Bison";
+    src: url("./assets/Bison.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NeueHelvatica";
+    src: url("./assets/HelveticaNeue-Black.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rummy";
+    src: url("./assets/Rummy.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.stroke-text {
+    color: transparent;
+    -webkit-text-stroke: 2px lime;
+    transition: color 0.5s ease;
+}
+
+.stroke-text:hover {
+    color: #a3e635;
+}
